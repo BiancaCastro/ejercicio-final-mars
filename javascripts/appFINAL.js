@@ -150,29 +150,3 @@ comandos();
 
 
 
-
-
-
-
-
-//BONUS DE OBSTÁCULOS
-if (rover.position==="x"){
-
-  console.log("Error! Acabas de encontrarte con un obstáculo");
-
-
-}
-
-//x =obstáculos
-var grid =[
-  [null,"x", null, null, null, null, null, null, null, "x"],
-  [null,null, null, null, null, null, "x",null, null, null],
-  [null, null, "x", null, null, null, null, null, null, "x"],
-  ["x",null, null, null, null, null, "x",null, null, null],
-  [null, null, null, null, null, null, null, null, null, null],
-  [null, null, null, null, "x", null, "x",null, null, null],
-  [null,"X", null, null, null, null, null, null, null, "x"],
-  ["x",null, null, null, null, null, "x",null, null, null],
-  [null,"x", null, null, null, null, null, null, null, "x"],
-  ["x",null, null, null, null, null,null,null, null, null],
-  ];
